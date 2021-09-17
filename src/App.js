@@ -1,13 +1,14 @@
 import './App.css';
+import { Route } from 'react-router-dom';
+import InfoPage from './pages/InfoPage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <header className="Header">
+        <p>//title//</p>
       </header>
+      <Route component={InfoPage} path={["/Info"]} exact/>
     </div>
   );
 }
