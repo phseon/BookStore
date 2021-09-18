@@ -1,9 +1,12 @@
+import BookInfo from '../components/InfoPage/BookInfo';
+import React from 'react';
+
 function InfoPage() {
 
     return (
-    <p>
-        Edit <code>src/App.js</code> and save to reload.
-    </p>
+        <div className="Information">
+            <BookInfo/>
+        </div>
     );
 }
 

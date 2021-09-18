@@ -1,0 +1,54 @@
+.BookInfo{
+    width: 1000px;
+    height: 600px;
+    margin: 50px auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: #d36c6c;
+}
+
+.BookIntro{
+    display: inline-block;
+}
+
+.BookImage{
+    display: inline-block;
+}
+/*사진 왼쪽 정보 오른쪽 정렬하기*/
+
+
+
+
+
+
+input[type="file"] {
+    display: none;
+}
+.inputFileButton{
+    padding: 6px;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    background-color:#ffffff;
+    cursor: pointer;border: 1px solid #cccccc;
+    border-radius: 5px;
+    color:#000000;
+    font-size: 15px;
+}
+.imageBox{
+    background-color: #69727D;
+    width: 354px;
+    height: 454px;
+    margin: 0 30px 20px 0;
+}
+.image{
+    width: 350px;
+    height: 450px;
+    margin: 2px;
+    object-fit: cover;
+}
+.itemSelect{
+    width: 100%;
+    text-align: left;
+}

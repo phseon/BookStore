@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="Header">
-        <p>//title//</p>
+        <p>title</p>
       </header>
       <Route component={InfoPage} path={["/Info"]} exact/>
     </div>
