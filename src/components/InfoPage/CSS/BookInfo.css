@@ -5,7 +5,7 @@
     text-align: center;
     align-items: center;
     align-content: center;
-    background-color: #d36c6c;
+    background-color: #dffab3;
 }
 
 .BookIntro{
@@ -37,7 +37,7 @@ input[type="file"] {
     font-size: 15px;
 }
 .imageBox{
-    background-color: #69727D;
+    background-color: #888888;
     width: 354px;
     height: 454px;
     margin: 0 30px 20px 0;
