@@ -1,25 +1,49 @@
 .BookInfo{
-    width: 1000px;
+    width: 700px;
     height: 600px;
     margin: 50px auto;
     text-align: center;
     align-items: center;
     align-content: center;
-    background-color: #dffab3;
+    background-color: #ffffff;
+}
+.BookDepart{
+    display: inline-block;
+    line-height: 0px;
+    margin-left: 10px;
+    height: 354px;
+    width: 380px;
 }
 
 .BookIntro{
     display: inline-block;
+    height: 324px;
+    width: 100%;
+    text-align: left;
+}
+
+.Bookstate{
+    display: block;
+    text-align: left;
 }
 
 .BookImage{
-    display: inline-block;
+    float: left;
 }
 /*사진 왼쪽 정보 오른쪽 정렬하기*/
 
 
+h2{
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 70px;
+}
 
-
+h3{
+    font-size: 22px;
+    font-weight: normal;
+    text-align: left;
+}
 
 
 input[type="file"] {
@@ -38,13 +62,12 @@ input[type="file"] {
 }
 .imageBox{
     background-color: #888888;
-    width: 354px;
-    height: 454px;
-    margin: 0 30px 20px 0;
+    width: 304px;
+    height: 354px;
 }
 .image{
-    width: 350px;
-    height: 450px;
+    width: 300px;
+    height: 350px;
     margin: 2px;
     object-fit: cover;
 }
