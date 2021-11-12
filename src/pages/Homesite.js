@@ -52,7 +52,7 @@ return (
     <Search type={"text"} placeholder={"도서명을 검색하세요"}></Search>
     <button> 검색 </button>
     <Navi>
-        <Btn>로그인</Btn> 
+        <Btn>로그인</Btn>
         <Btn>장바구니</Btn>
         <Btn>마이페이지</Btn>
         <Btn>쪽지</Btn>
