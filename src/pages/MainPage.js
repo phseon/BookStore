@@ -6,9 +6,6 @@ function MainPage() {
 
     return (
         <>
-        <header className="Header">
-        {/* <Homesite/> */}
-      </header>
         <div className="Information">
             <Home/>
         </div>
