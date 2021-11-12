@@ -1,4 +1,4 @@
-import Homesite from './Homesite';
+// import Homesite from './Homesite';
 import Home from '../container/MainPage/Home';
 import React from 'react';
 
@@ -7,7 +7,7 @@ function MainPage() {
     return (
         <>
         <header className="Header">
-        <Homesite/>
+        {/* <Homesite/> */}
       </header>
         <div className="Information">
             <Home/>

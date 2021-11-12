@@ -7,7 +7,7 @@ import Homesite from './pages/Homesite';
 function App() {
   return (
     <div className="App">
-<Homesite/>
+      <Homesite/>
       <Route component={MainPage} path={["/"]} exact/>
       <Route component={InfoPage} path={["/Info"]} exact/>
      
